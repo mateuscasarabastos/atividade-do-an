@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informativo: Colar de Identificação</title>
+    <style>
+        /* CONFIGURAÇÕES GERAIS E FUNDO VERDE CLARO */
+        body {
+            background-color: #e8f5e9; /* Verde claro solicitado */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* CONTAINER DO PANFLETO */
+        .panfleto {
+            background-color: white;
+            max-width: 600px;
+            width: 100%;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border-top: 15px solid #81c784; /* Detalhe verde no topo */
+        }
+
+        /* CABEÇALHO */
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .icon {
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            color: #2e7d32;
+            margin: 0;
+            font-size: 24px;
+        }
+
+        p.subtitulo {
+            color: #666;
+            font-style: italic;
+        }
+
+        /* CONTEÚDO INFORMATIVO */
+        .info-section {
+            margin-bottom: 30px;
+            line-height: 1.6;
+            color: #444;
+        }
+
+        .highlight {
+            background-color: #f1f8e9;
+            padding: 15px;
+            border-left: 5px solid #4caf50;
+            margin: 20px 0;
+            border-radius: 0 10px 10px 0;
+        }
+
+        /* FORMULÁRIO */
+        .form-container {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #eee;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #2e7d32;
+        }
+
+        input[type="text"], 
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-sizing: border-box; /* Evita que o campo saia da borda */
+            font-size: 14px;
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 80px;
+        }
+
+        button {
+            width: 100%;
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background-color: #388e3c;
+        }
+
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 12px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="panfleto">
+        <header>
+            <div class="icon">🌻
